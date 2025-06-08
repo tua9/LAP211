@@ -19,7 +19,7 @@ public class InputUtils {
     public static int readInteger(Scanner scanner, String prompt) {
         System.out.print(prompt);
         try {
-            return scanner.nextInt();
+            return (int)Integer.parseInt(scanner.nextLine());
         }
         catch(NumberFormatException e) {
             System.out.println("Input invalid!");

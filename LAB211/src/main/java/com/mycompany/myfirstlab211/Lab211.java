@@ -15,12 +15,14 @@ import com.mycompany.week03.BinarySearch;
 import com.mycompany.week03.BubbleSort;
 import com.mycompany.week03.MyStack;
 import com.mycompany.week03.QuickSort;
-import com.mycompany.week04.InformationManagement;
+import com.mycompany.week04.P0021.StudentApp;
+import com.mycompany.week04.PersonTeacherStudentManagement;
 
 /**
  *
  * @author LE ANH TUAN
  */
+
 public class Lab211 {
     public static void main(String[] args) {
         /*WEEK 01*/
@@ -96,8 +98,17 @@ public class Lab211 {
 
         /*WEEK 04*/
         
-//        InformationManagement.management();
+        PersonTeacherStudentManagement.run();
+        
+            //****************************************************
+        
+//        StudentApp.run();
+            
+            
         /*WEEK 05*/
         /*WEEK 06*/
+        
     }
 }
+
+
