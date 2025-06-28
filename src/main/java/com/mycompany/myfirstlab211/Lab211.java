@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.myfirstlab211;
 
 import DatabaseConnection.DataProvider;
@@ -22,6 +18,7 @@ import com.mycompany.week05.CourseManagement;
 import com.mycompany.week05.LargeNumber;
 import com.mycompany.week05.ReservationManager;
 import com.mycompany.week07.FruitShopManager;
+import com.mycompany.week08.ShapeApp;
 import java.io.PrintStream;
 import java.util.List;
 
@@ -128,8 +125,15 @@ public class Lab211 {
         
         /*WEEK 07*/
         
-        FruitShopManager.run();
+//        FruitShopManager.run();
+
+            //****************************************************
+
+        /*WEEK 08*/
+        
+        ShapeApp.run();
+        
+        /*WEEK 09*/
+        /*WEEK 10*/
     }
 }
-
-
